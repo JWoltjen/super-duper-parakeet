@@ -25,6 +25,11 @@
             height: 100%; 
             animation: move 10s ease-in-out infinite alternate; 
 
+            @keyframes move {
+                33%{transform: translateY(-50px);}
+                66%{transform: translateY(-100px);}
+               100%{transform: translateY(-150px);}
+                }
             .i-title-item {
                 height: 50px; 
                 font-size: 30px; 

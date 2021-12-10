@@ -16,6 +16,9 @@ function Intro() {
                             <div className='i-title-item'>Content Developer</div>
                         </div>
                     </div>
+                    <div className='i-description'>
+                        Commodo officia non elit occaecat. Officia non voluptate adipisicing laboris irure aliquip. Eu duis aliqua elit Lorem nisi magna Lorem culpa dolore id aliqua.
+                    </div>
                 </div>
             </div>
             <div className="right"></div>

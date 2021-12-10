@@ -9,16 +9,18 @@
 
     .p-browser{
         height: 20px; 
-        background-color: rgb(243, 242, 242);
+        background-color: crimson; 
         display: flex; 
         align-items: center;
+        position: sticky; 
+        z-index: 2; 
     }
 
     .p-circle{
         width: 6px; 
         height: 6px; 
         border-radius: 50%;
-        background-color: #fff;
+        background-color: white; 
         margin: 3px; 
     }
 }

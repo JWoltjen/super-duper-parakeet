@@ -3,7 +3,11 @@ import "./Portfolio.scss"
 function Portfolio() {
     return (
         <div className="p">
-            card
+            <div className="p-broswer">
+                <div className="p-circle"></div>
+                <div className="p-circle"></div>
+                <div className="p-circle"></div>
+            </div>
         </div>
     )
 }

@@ -38,7 +38,22 @@ function Contact() {
                         </div>
                     </div>
                 </div>
-                <div className="c-right"></div>
+
+
+
+                <div className="c-right">
+                    <p className="c-desc">
+                        <b>What do you want to make?</b>
+                        <p>Nisi tempor culpa irure nisi officia dolore ullamco sint aliquip tempor. Quis eiusmod culpa aute tempor nostrud. Velit aute pariatur adipisicing laborum reprehenderit.</p>
+                    </p>
+                    <form>
+                        <input type="text" placeholder="Name" name="user_name"/>
+                        <input type="text" placeholder="Subject" name="user_subject"/>
+                        <input type="text" placeholder="Email" name="user_email"/>
+                        <textarea rows="5" placeholder="Message" name="message"/>
+                        <button>Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
     )

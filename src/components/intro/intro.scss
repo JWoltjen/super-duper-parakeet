@@ -1,11 +1,19 @@
-.intro{
+.i{
     display: flex; 
+    height: 100vh; 
 
-    .left {
+    .i-left {
         flex: 1; 
+
+        .i-left-wrapper{
+
+            padding: 50px; 
+        }
     }
 
-    .right {
-        flex: 1; 
-    }
+}
+
+
+.i-right {
+    flex: 1; 
 }

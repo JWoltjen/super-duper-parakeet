@@ -1,6 +1,6 @@
 import React from 'react'
 import "./intro.scss"
-
+import cat from '../../img/cat.png'
 function Intro() {
     return (
         <div className='i'>
@@ -21,7 +21,10 @@ function Intro() {
                     </div>
                 </div>
             </div>
-            <div className="right"></div>
+            <div className="i-right">
+                <div className='i-bg'></div>
+                <img src={cat} alt='' className='i-img'/>
+            </div>
         </div>
     )
 }

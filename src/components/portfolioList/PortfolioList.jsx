@@ -15,6 +15,8 @@ function PortfolioList() {
                 <Portfolio/>
                 <Portfolio/>
                 <Portfolio/>
+                <Portfolio/>
+                <Portfolio/>
             </div>
         </div>
     )

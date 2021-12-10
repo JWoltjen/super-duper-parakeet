@@ -2,8 +2,8 @@ import "./Portfolio.scss"
 
 function Portfolio() {
     return (
-        <div>
-            
+        <div className="p">
+            card
         </div>
     )
 }

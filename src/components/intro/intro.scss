@@ -9,6 +9,31 @@
 
             padding: 50px; 
         }
+        .i-intro {
+            font-weight: 300; 
+            font-size: 30px; 
+        }
+        .i-name {
+            font-size: 60px; 
+        }
+        .i-title {
+            height: 50px; 
+            overflow: hidden;
+        }
+
+        .i-title-wrapper {
+            height: 100%; 
+            animation: move 10s ease-in-out infinite alternate; 
+
+            .i-title-item {
+                height: 50px; 
+                font-size: 30px; 
+                font-weight: bold; 
+                color: crimson;  
+                display: flex; 
+                align-items: center;
+            }
+        }
     }
 
 }

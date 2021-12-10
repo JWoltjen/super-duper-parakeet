@@ -14,7 +14,6 @@ function Intro() {
                             <div className='i-title-item'>Digital Explorer</div>
                             <div className='i-title-item'>Writer</div>
                             <div className='i-title-item'>Content Developer</div>
-
                         </div>
                     </div>
                 </div>
